@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 
+/*Custom Properties */
+
 :root {
   --ff-primary: 'Source Sans Pro', sans-serif;
   --ff-secondary: 'Source Code Pro', monospace;
 
-  -fw-reg: 300;
+  --fw-reg: 300;
   --fw-bold: 900;
 
   --clr-light: #fff;
@@ -21,11 +23,34 @@
   --fs-body: 1rem;
 }
 
+@media(min-width: 800px) {
+  :root {
+    --fs-h1: 4.5;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.125rem;
+  }
+}
+
+/*General Styles */
+
+.home {
+
+  flex:var(--condiv-flex);
+  background-color: var(--clr-dark);
+  color:var(--clr-light);
+  margin: 0;
+  font-family: Sans;
+  font-size: var(--fs-body);
+}
+
 .App {
   text-align: center;
-  display: flex;
+ 
   width: 100vw;
   min-height: 100vh;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-body);
 }
 
 .header {
@@ -33,17 +58,13 @@
   height: 100px;
   padding: 10px;
   color: white;
+  font-family: var(--ff-primary);
 }
 
 .App-intro {
   font-size: large;
 }
 
-.home {
-  padding: 100px ;
-  flex:var(--condiv-flex);
-  background-color: teal;
-}
 
 .profilepic {
   width:700px;
@@ -72,7 +93,6 @@ font-weight: bolder;
   position: absolute;
   right: 0px;
   width: 300px;
-  border: 3px solid grey;
   padding: 10px;
 }
 
