@@ -37,12 +37,13 @@
 .home {
 
   flex:var(--condiv-flex);
-  background-color: var(--clr-dark);
-  color:var(--clr-light);
-  margin: 50;
+  background-color: var(--clr-light);
+  color:var(--clr-dark);
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   margin-bottom: .25em;
+  margin: 25px;
+  text-align:left;
 }
 
 .App {
@@ -55,6 +56,31 @@
   font-size: var(--fs-body);
 }
 
+/*intro section */
+@media(min-width: 600px) {
+  .home {
+    display: grid;
+    width: min-content;
+    margin:0 auto;
+    grid-column-gap: 1em;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+}
+
+/*Profile picture */
+
+.profilepic {
+  grid-area: img;
+  min-width: 250px;
+  max-width: 350px;
+  margin: 50;
+  margin-top: 2em;
+}
+
+
 /*Header */
 
 .header {
@@ -65,12 +91,6 @@
   font-family: var(--ff-primary);
 }
 
-/*Profile picture */
-
-.profilepic {
-  width:700px;
-  height:800px;
-}
 
 
 /* Typography */
@@ -78,7 +98,7 @@ h1,
 h2,
 h3 {
   line-height: 1;
-  margin:0;
+  margin:10;
 }
 
 h1 {font-size: var(--fs-h1)}
@@ -90,12 +110,10 @@ h3 {font-size: var(--fs-h3)}
 }
 
 .section__subtitle {
-  margin:10;
-  padding: 30px;
   font-size: var(--fs-h3);
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
-  postion: relative;
+  height: 100px;
 }
 
 /* css for active class */

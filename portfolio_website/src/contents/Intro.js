@@ -7,12 +7,17 @@ class Intro extends Component {
 			
 			<div className="home">
 				<h1> 
-					Hi, I am Bob 
+					Hi, I am 
+					<br />
+					Rowan Shepherd
 				</h1>
-				<p className="section__subtitle"> 
-					front-end dev 
-				</p>
 				<img src={profilepic} className="profilepic"></img>
+				<p className="section__subtitle"> 
+					<center>
+					<br />
+						Full stack Web Developer
+					</center>
+				</p>
 				
 			</div>
 		)
