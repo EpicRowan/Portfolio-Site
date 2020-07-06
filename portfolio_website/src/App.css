@@ -39,18 +39,23 @@
   flex:var(--condiv-flex);
   background-color: var(--clr-dark);
   color:var(--clr-light);
-  margin: 0;
-  font-family: Sans;
+  margin: 50;
+  font-family: var(--ff-primary);
   font-size: var(--fs-body);
+  margin-bottom: .25em;
 }
 
 .App {
   text-align: center;
   width: 100vw;
   min-height: 100vh;
+  padding: 100;
+  margin: 50;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
 }
+
+/*Header */
 
 .header {
   background-color: grey;
@@ -60,10 +65,7 @@
   font-family: var(--ff-primary);
 }
 
-.App-intro {
-  font-size: large;
-}
-
+/*Profile picture */
 
 .profilepic {
   width:700px;
@@ -75,7 +77,7 @@
 h1,
 h2,
 h3 {
-  line-height: 1.1;
+  line-height: 1;
   margin:0;
 }
 
@@ -83,8 +85,18 @@ h1 {font-size: var(--fs-h1)}
 h2 {font-size: var(--fs-h2)}
 h3 {font-size: var(--fs-h3)}
 
+.section__title{
 
+}
 
+.section__subtitle {
+  margin:10;
+  padding: 30px;
+  font-size: var(--fs-h3);
+  background: var(--clr-accent);
+  font-family: var(--ff-secondary);
+  postion: relative;
+}
 
 /* css for active class */
 .active

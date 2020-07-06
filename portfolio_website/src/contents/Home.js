@@ -7,12 +7,9 @@ import Header from '../components/Header'
 class Home extends Component {
 	render() {
 		return (
-
-		<div className="home">
+			<div>
 		<Header />
-			<h1> Hi, I am Bob </h1>
-			<Intro />
-		<img src={profilepic} className="profilepic"></img>
+		<Intro />
 		<About />
 		</div>
 
