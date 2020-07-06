@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 import profilepic from '../img/milo_profile.jpg';
-import Social from '../components/Social'
+import Services from '../components/Services'
 
 class Home extends Component {
 	render() {
 		return (
-		<div className="condiv home">
-		<img src={profilepic} className="profilepic" width="700" height="800"></img>
-			<Social />
+
+		<div className="home">
+					<h1> Hi, I am Bob </h1>
+		<img src={profilepic} className="profilepic"></img>
+		<Services />
 		</div>
+
 	)
 	}
 }

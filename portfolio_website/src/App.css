@@ -47,16 +47,21 @@ width: 100vw;
 min-height: 100vh;
 }
 /* .condiv class is for the right side content container*/
-.condiv
+.home
 {
 padding: 100px ;
-background-color: grey;
 flex:var(--condiv-flex);
+}
+
+.profilepic
+{
+width:700px;
+height:800px;
 }
 
 nav
 {
-padding:60px 30px 0px 30px ;
+padding:10px 10px 0px 10px ;
 flex:var(--sidebar-flex);
 background: rgb(238,103,143);
 background: linear-gradient(180deg, white 50%, rgba(132,124,252,1) 80%);
@@ -128,3 +133,4 @@ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 img {
  /* border-radius: 70%;*/
 }
+

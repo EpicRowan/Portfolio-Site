@@ -19,6 +19,9 @@ activeitem=(x)=> {
 };
 	render() {
 		return (
+			<header>
+			<button class="nav-toggle" aria-label="togle navigation">
+			
 			<nav>
 				<ul>
 				<Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
@@ -28,6 +31,8 @@ activeitem=(x)=> {
 				<Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
 				</ul>
 			</nav>
+			</button>
+			</header>
 			)
 	}
 }
