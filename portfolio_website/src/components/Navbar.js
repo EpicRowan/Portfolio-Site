@@ -19,20 +19,18 @@ activeitem=(x)=> {
 };
 	render() {
 		return (
-			<header>
-			<button class="nav-toggle" aria-label="togle navigation">
-			
-			<nav>
-				<ul>
+			<div className="dropdown">
+  			<button className="dropbtn">Menu</button>
+  				<div className="dropdown-content">
 				<Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
 				<Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
 				<Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
 				<Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
 				<Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
-				</ul>
-			</nav>
-			</button>
-			</header>
+
+  </div>
+</div>
+
 			)
 	}
 }
