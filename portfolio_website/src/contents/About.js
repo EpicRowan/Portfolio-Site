@@ -3,19 +3,20 @@ import React, { Component } from 'react';
 class About extends Component {
 	render() {
 		return (
-		<div className="condiv">
-			<h1 className="subtopic">
+		<div className="about">
+		<br />
+		<br />
+			<h2>
 				About Me
-			</h1>
+			</h2>
 				<h4>
-					Hey there,
+				<p className="section__subtitle"> 
+					<center>
+					<br />
+						My background
+					</center>
+				</p>
 				</h4>
-					<h1>
-						I'm Rowan Shepherd
-					</h1>
-				<h3>
-					Full Stack Web <u>Developer</u>
-				</h3>
 					<br>
 					</br>
 						<p>Stuff about me</p>

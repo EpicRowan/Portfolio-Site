@@ -6,8 +6,10 @@ class Intro extends Component {
 		return (
 			
 			<div className="home">
-				<h1> 
+				<h1>
+					<regular> 
 					Hi, I am 
+					</regular>
 					<br />
 					Rowan Shepherd
 				</h1>
