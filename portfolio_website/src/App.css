@@ -21,6 +21,9 @@
   --fs-h2: 2.25rem;
   --fs-h3: 1.25rem;
   --fs-body: 1rem;
+
+  --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
 @media(min-width: 800px) {
@@ -83,10 +86,12 @@
 .profilepic {
   grid-area: img;
   min-width: 250px;
-  max-width: 350px;
+  max-width: 320px;
   margin: 50;
   margin-top: 2em;
-  border: 2px solid black;
+  position: relative;
+  z-index: 2;
+  box-shadow:var(--bs);
 }
 
 
@@ -122,7 +127,15 @@ h3 {font-size: var(--fs-h3)}
   font-size: var(--fs-h3);
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
-  height: 100px;
+  height: 80px;
+  align-self:start;
+  grid-column: -1/1;
+  grid-row: 2;
+  text-align: right;
+  position: relative;
+  left: -1.5em;
+  width:calc(100% +1.5em);
+  padding:.25em 1em;
 }
 
 /* css for active class */
