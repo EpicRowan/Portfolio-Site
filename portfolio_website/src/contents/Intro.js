@@ -13,7 +13,7 @@ class Intro extends Component {
 					<br />
 					Rowan Shepherd
 				</h1>
-				<img src={profilepic} className="profilepic"></img>
+				<img src={profilepic} className="profilepic" alt=""></img>
 				<p className="section__subtitle"> 
 					<center>
 					<br />
