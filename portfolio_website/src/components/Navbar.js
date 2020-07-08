@@ -23,8 +23,8 @@ activeitem=(x)=> {
   			<button className="dropbtn">Menu</button>
   				<div className="dropdown-content">
 				<Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
-				<Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
-				<Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
+				<Navitem item="Coding" tolink="/coding"  activec={this.activeitem}></Navitem>
+				<Navitem item="About Me" tolink="/about"  activec={this.activeitem}></Navitem>
 				<Navitem item="Projects" tolink="/projects"  activec={this.activeitem}></Navitem>
 				<Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
 

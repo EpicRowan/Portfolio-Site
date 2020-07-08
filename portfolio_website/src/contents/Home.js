@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from '../components/Header'
 import Intro from '../contents/Intro'
-import About from '../contents/About'
-import Skills from '../contents/Skills'
+import Coding from '../contents/Coding'
+import AboutMe from '../contents/AboutMe'
 
 
 
@@ -12,8 +12,8 @@ class Home extends Component {
 			<div>
 		<Header />
 		<Intro />
-		<About />
-		<Skills />
+		<Coding />
+		<AboutMe />
 		</div>
 
 	)

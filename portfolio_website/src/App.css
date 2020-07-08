@@ -162,9 +162,9 @@ h3 {font-size: var(--fs-h3)}
   padding:.25em 1em;
 }
 
-/* About me section */
+/* Coding section */
 
-.about {
+.coding {
   background-color: var(--clr-dark);
   background-size: cover;
   background-image: url(./img/computer.jpeg);
@@ -176,12 +176,12 @@ h3 {font-size: var(--fs-h3)}
 
 }
 
- .about_title {
+ .coding_title {
   color: var(--clr-accent);
   position: relative;
  }
 
-.about_title::after {
+.coding_title::after {
   content:'';
   display: block;
   width: 3em;
@@ -195,7 +195,7 @@ h3 {font-size: var(--fs-h3)}
 
  }
 
- .about_section {
+ .coding_section {
   column-count: 3;
  }
 

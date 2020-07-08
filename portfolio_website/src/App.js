@@ -8,8 +8,8 @@ import
 
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
-import About from './contents/About';
-import Skills from './contents/Skills';
+import Coding from './contents/Coding';
+import AboutMe from './contents/AboutMe';
 import Projects from './contents/Projects';
 import Contact from './contents/Contact';
 
@@ -22,11 +22,11 @@ import Contact from './contents/Contact';
         <Route exact path="/">
           <Home />
         </Route>
-        <Route path="/about">
-          <About />
+        <Route path="/coding">
+          <Coding />
         </Route>
-        <Route path="/skills">
-          <Skills />
+        <Route path="/about">
+          <AboutMe />
         </Route>
         <Route path="/projects">
           <Projects />
