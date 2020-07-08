@@ -268,7 +268,9 @@ h3 {font-size: var(--fs-h3)}
   position: relative;
   right: -1.5em;
   width:calc(100% +1.5em);
-  padding:1em 2em;
+  padding:1em;
+  padding-left:2em;
+  padding-right:calc(400px + 4em);
 }
 
 /* css for active class */
