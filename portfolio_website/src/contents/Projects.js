@@ -1,13 +1,17 @@
 import React, { Component } from 'react';
+import doomproject from '../img/doom.gif'
+
 
 class Projects extends Component {
 	render() {
 		return (
-			<div className="coding">
-			<h2 className="coding_title">
-				Projects
-			</h2>
-			What is <b>Lorem Ipsum</b> Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer took a galley of type and scrambled it to make a type specimen book it has?
+			<div className="portfolio">
+			<h2> My Work </h2>
+			<h3> A Collection of my Coding Projects </h3>
+
+
+				<a href="" className="portfolio_item"></a>
+					<img src={doomproject} className="portfolio_img" alt=""></img>
 
 			</div>
 		)
