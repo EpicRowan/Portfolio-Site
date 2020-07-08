@@ -128,7 +128,7 @@ regular { font-weight: var(--fw-reg) }
 }
 
 .btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 /* Typography */
@@ -195,19 +195,19 @@ h3 {font-size: var(--fs-h3)}
 
  }
 
- .service {
+ .coding_section {
   max-width: 500px;
   margin: 0 auto;
  }
 
 
 @media (min-width: 800px) {
-  .services {
+  .coding_sections {
     display: flex;
     max-width: 800px;
     margin: 0 auto;
   }
-  .service + .service {
+  .coding_section + .coding_section {
     margin-left: 5em;
 
   }
@@ -222,24 +222,49 @@ h3 {font-size: var(--fs-h3)}
 }
 
 .aboutme_title {
+  grid-area: title;
   text-align: left;
-  margin-top: 100px
-  ;
+  margin-top: 100px;
+  margin-bottom: 0px;
+    padding:.5em;
 
 }
 
+.about_me_pic {
+  grid-area: img;
+  min-width: 320px;
+  max-width: 400px;
+  margin: 50;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  position: relative;
+  box-shadow:var(--bs);
+
+}
+
+
+@media(min-width: 500px) {
+  .aboutme {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      "title img"
+      "subtitle img"
+      "text img";
+  }
+}
+
 .section__subtitle__aboutme {
+  grid-column: 1;
   margin:0;
   font-size: var(--fs-h3);
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
   height: 80px;
   align-self:start;
-  grid-column: -1/1;
-  grid-row: 2;
   text-align: left;
   position: relative;
-  left: -1.5em;
+  right: -1.5em;
   width:calc(100% +1.5em);
   padding:1em 2em;
 }
