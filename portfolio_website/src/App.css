@@ -107,9 +107,16 @@
 
 regular { font-weight: var(--fw-reg) }
 
+:focus {
+  outline: 3px solid var(--clr-accent);
+  outline-offset: 3px;
+}
+
+/* Button */
+
 .btn {
   display: inline-block;
-  padding: .5em 1.5em;
+  padding: .5em 2.5em;
   background: var(--clr-accent);
   color: var(--clr-dark);
   cursor:pointer;
@@ -165,7 +172,7 @@ h3 {font-size: var(--fs-h3)}
   color: var(--clr-light);
   text-align:center;
   padding:.25em 1em;
-  height: 700px;
+  height: 500px;
 
 }
 
@@ -189,7 +196,7 @@ h3 {font-size: var(--fs-h3)}
  }
 
  .about_section {
-  column-count: 2
+  column-count: 3;
  }
 
 /*@media (min-width: 800px) {
