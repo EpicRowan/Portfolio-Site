@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import computerpic from '../img/computer.jpeg';
+
 
 class About extends Component {
 	render() {
@@ -6,20 +8,20 @@ class About extends Component {
 		<div className="about">
 		<br />
 		<br />
-			<h2>
-				About Me
+			<h2 className="about_title">
+				What I do
 			</h2>
-				<h4>
-				<p className="section__subtitle"> 
-					<center>
-					<br />
-						My background
-					</center>
-				</p>
-				</h4>
-					<br>
-					</br>
-						<p>Stuff about me</p>
+
+			<p>
+				I do this
+			</p>
+			<p>
+				This too
+			</p>
+			<p>
+				Also this
+			</p>
+
 		</div>
 		)
 	}
