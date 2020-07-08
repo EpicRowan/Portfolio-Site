@@ -221,12 +221,18 @@ h3 {font-size: var(--fs-h3)}
 
 }
 
+.aboutme_body {
+  margin: 0 auto;
+  padding-left:2.25em;
+}
+
 .aboutme_title {
   grid-area: title;
   text-align: left;
   margin-top: 100px;
   margin-bottom: 0px;
-    padding:.5em;
+  padding:.5em;
+  padding-left:1em;
 
 }
 
