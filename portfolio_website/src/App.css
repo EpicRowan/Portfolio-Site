@@ -170,6 +170,17 @@ h3 {font-size: var(--fs-h3)}
 
  }
 
+ .about_section {
+  column-count: 3
+ }
+
+/*@media (min-width: 800px) {
+  .about_section {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}*/
 
 /* css for active class */
 .active

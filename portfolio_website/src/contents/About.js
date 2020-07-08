@@ -7,16 +7,19 @@ class About extends Component {
 		return (
 		<div className="about">
 			<h2 className="about_title">
-				What I do
+				About me
 			</h2>
 
-			<p>
+			<p className="about_section">
+			<h3> Title 1</h3>
 				I do this
-			</p>
-			<p>
+			
+			
+			<h3> Title 2</h3>
 				This too
-			</p>
-			<p>
+			
+			
+			<h3> Title 3</h3>
 				Also this
 			</p>
 
