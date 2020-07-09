@@ -279,6 +279,35 @@ h3 {font-size: var(--fs-h3)}
   padding-right:calc(400px + 4em);
 }
 
+/*Projects section*/
+
+.my_work {
+  background-color: var(--clr-dark);
+  color:var(--clr-light);
+  text-align: center;
+
+}
+
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.portfolio_item {
+  }
+
+.portfolio_img {
+  transition: 
+    transform 750ms cubic-bezier(.5, 0, .5, 1);
+    opacity:  250ms linear;
+}
+
+.portfolio_img:hover {
+  transform: scale(1.2);
+  opacity: .75;
+
+
+}
 /* css for active class */
 .active
 {

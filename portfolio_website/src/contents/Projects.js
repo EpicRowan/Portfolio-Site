@@ -5,15 +5,21 @@ import doomproject from '../img/doom.gif'
 class Projects extends Component {
 	render() {
 		return (
-			<div className="portfolio">
+			<section className="my_work">
 			<h2> My Work </h2>
-			<h3> A Collection of my Coding Projects </h3>
 
-
-				<a href="" className="portfolio_item"></a>
+			<div className="portfolio">
+				<a href="" className="portfolio_item">
 					<img src={doomproject} className="portfolio_img" alt=""></img>
-
+				</a>
+					<a href="" className="portfolio_item">
+					<img src={doomproject} className="portfolio_img" alt=""></img>
+				</a>
+					<a href="" className="portfolio_item">
+					<img src={doomproject} className="portfolio_img" alt=""></img>
+				</a>
 			</div>
+			</section>
 		)
 	}
 }
