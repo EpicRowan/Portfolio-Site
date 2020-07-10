@@ -6,7 +6,7 @@ class Social extends Component {
 	render() {
 		return (
 			<footer>
-			<div className="footer">
+			<div className="footer" id="contact">
 			<a href="mailto:shepherd.rowan.k@gmail.com" className="social_link">
 				shepherd.rowan.k@gmail.com </a>
 

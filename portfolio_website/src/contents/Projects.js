@@ -5,7 +5,7 @@ import doomproject from '../img/doom.gif'
 class Projects extends Component {
 	render() {
 		return (
-			<section className="my_work">
+			<section className="my_work" id="projects">
 			<h2 className="portfolio_title"> My Work </h2>
 
 			<div className="portfolio">
