@@ -6,7 +6,7 @@ class Projects extends Component {
 	render() {
 		return (
 			<section className="my_work">
-			<h2> My Work </h2>
+			<h2 className="portfolio_title"> My Work </h2>
 
 			<div className="portfolio">
 				<a href="" className="portfolio_item">
