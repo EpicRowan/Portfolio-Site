@@ -381,7 +381,8 @@ font-weight: bolder;
 .dropdown {
   position: absolute;
   right: 0px;
-  width: 300px;
+  height: 100px;
+  width: 200px;
   padding: 10px;
 }
 

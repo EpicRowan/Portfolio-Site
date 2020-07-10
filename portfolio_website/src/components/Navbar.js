@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navitem from './Navitem';
+import FontAwesome from 'react-fontawesome'
 
 
 class Navbar extends Component {
@@ -20,7 +21,9 @@ activeitem=(x)=> {
 	render() {
 		return (
 			<div className="dropdown">
-  			<button className="dropbtn">Menu</button>
+  			<button className="dropbtn">
+  				<FontAwesome className="fas fa-bars"/>
+  			</button>
   				<div className="dropdown-content">
 				<Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
 				<Navitem item="Coding" tolink="/coding"  activec={this.activeitem}></Navitem>
