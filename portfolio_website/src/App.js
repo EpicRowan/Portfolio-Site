@@ -5,6 +5,7 @@ import
     BrowserRouter as Router,
       Route,
   } from "react-router-dom";
+import FontAwesome from 'react-fontawesome'
 
 import Navbar from './components/Navbar';
 import Home from './contents/Home';
