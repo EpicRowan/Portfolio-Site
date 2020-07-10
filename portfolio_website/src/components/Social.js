@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import FontAwesome from 'react-fontawesome'
+
 
 class Social extends Component {
 	render() {
@@ -8,9 +10,9 @@ class Social extends Component {
 				<a className="social_link" 
 					href="https://github.com/EpicRowan">
 					Github
-					<i class="fab fa-github"></i>
+					<FontAwesome className="fab fa-github"/>
 				</a>
-				<a href="https://Linkedin.com/in/rowan-shepherd/" target="_blank">Linkedin<i class="fab fa-linkedin-in"></i></a>
+				<a href="https://Linkedin.com/in/rowan-shepherd/" target="_blank">Linkedin<i className="fab fa-linkedin-in"></i></a>
 			</li>
 			</footer>
 			)
