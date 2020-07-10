@@ -4,6 +4,7 @@ import Intro from '../contents/Intro'
 import Coding from '../contents/Coding'
 import AboutMe from '../contents/AboutMe'
 import Projects from '../contents/Projects'
+import Social from '../components/Social'
 
 
 
@@ -16,6 +17,7 @@ class Home extends Component {
 		<Coding />
 		<AboutMe />
 		<Projects />
+		<Social />
 		</div>
 
 	)
