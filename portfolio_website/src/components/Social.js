@@ -9,10 +9,12 @@ class Social extends Component {
 			<li className="social_list_item">
 				<a className="social_link" 
 					href="https://github.com/EpicRowan">
-					Github
 					<FontAwesome className="fab fa-github"/>
 				</a>
-				<a href="https://Linkedin.com/in/rowan-shepherd/" target="_blank">Linkedin<i className="fab fa-linkedin-in"></i></a>
+				<a className="social_link" 
+					href="https://linkedin.com/in/rowan-shepherd/">
+					<FontAwesome className="fab fa-linkedin"/>
+				</a>
 			</li>
 			</footer>
 			)
