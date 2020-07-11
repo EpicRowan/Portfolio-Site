@@ -37,7 +37,7 @@
 
 /*General Styles */
 
-.body {
+.home {
 
   background-color: var(--clr-light);
   color:var(--clr-dark);
@@ -148,9 +148,6 @@ regular { font-weight: var(--fw-reg) }
 
 /* Intro section */
 
-.section__title {
-}
-
 .section__subtitle {
   margin:0;
   font-size: var(--fs-h3);
@@ -234,7 +231,7 @@ regular { font-weight: var(--fw-reg) }
 .aboutme_title {
   grid-area: title;
   text-align: left;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 0px;
   padding:.5em;
   padding-left:1em;
@@ -292,8 +289,6 @@ regular { font-weight: var(--fw-reg) }
   text-align: center;
   padding: 1em 0;
 
-
-
 }
 
 .portfolio {
@@ -318,8 +313,19 @@ regular { font-weight: var(--fw-reg) }
 .portfolio_img:hover,
 .portfolio_img:focus .portfolio_img {
 
-  transform: scale(1.2);
+  transform: scale(1.1);
   opacity: .75;
+
+}
+
+/*Project Info section */
+.info_link {
+  color: var(--clr-accent);
+  font-size: var(--fs-h2);
+  font-weight: var(--fw-bold);
+  padding: .5em;
+
+
 
 }
 
@@ -359,12 +365,6 @@ regular { font-weight: var(--fw-reg) }
 
 
 }
-
-/* css for active class */
-/*.active
-{
-font-weight: bolder;
-}*/
 
 
 /* Style The Dropdown Button */

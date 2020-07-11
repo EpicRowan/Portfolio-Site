@@ -9,13 +9,7 @@ class Projects extends Component {
 			<h2 className="portfolio_title"> My Work </h2>
 
 			<div className="portfolio">
-				<a href="" className="portfolio_item">
-					<img src={doomproject} className="portfolio_img" alt=""></img>
-				</a>
-					<a href="" className="portfolio_item">
-					<img src={doomproject} className="portfolio_img" alt=""></img>
-				</a>
-					<a href="" className="portfolio_item">
+				<a href="/projectinfo" className="portfolio_item">
 					<img src={doomproject} className="portfolio_img" alt=""></img>
 				</a>
 			</div>

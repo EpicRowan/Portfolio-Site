@@ -11,6 +11,7 @@ import Home from './contents/Home';
 import Coding from './contents/Coding';
 import AboutMe from './contents/AboutMe';
 import Projects from './contents/Projects';
+import ProjectInfo from './components/ProjectInfo';
 import Contact from './contents/Contact';
 
   function App() {
@@ -30,6 +31,9 @@ import Contact from './contents/Contact';
         </Route>
         <Route path="/projects">
           <Projects />
+        </Route>
+        <Route path="/projectinfo">
+          <ProjectInfo />
         </Route>
         <Route path="/contact">
           <Contact />
