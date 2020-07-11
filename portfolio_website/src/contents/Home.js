@@ -15,7 +15,6 @@ class Home extends Component {
 	render() {
 		return (
 			<div>
-		<Link to="#coding">Question 1</Link>
 		<Header />
 		<Intro />
 		<Coding />
