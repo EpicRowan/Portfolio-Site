@@ -346,12 +346,11 @@ regular { font-weight: var(--fw-reg) }
   color: var(--clr-accent);
   text-align: center;
   padding: 2.5em 0;
-  display: flex;
+
 
 }
 
 .footer a {
-  text-decoration: none;
 }
 
 .social_link {

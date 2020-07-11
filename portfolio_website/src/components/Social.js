@@ -7,10 +7,11 @@ class Social extends Component {
 		return (
 			<footer>
 			<div className="footer" id="contact">
-			<a href="mailto:shepherd.rowan.k@gmail.com" className="social_link">
-				shepherd.rowan.k@gmail.com </a>
+	
 
 			<li className="social_list">
+					<a href="mailto:shepherd.rowan.k@gmail.com" className="social_link">
+				shepherd.rowan.k@gmail.com </a>
 				<a className="social_link" 
 					href="https://github.com/EpicRowan">
 					<FontAwesome className="fab fa-github"/>
