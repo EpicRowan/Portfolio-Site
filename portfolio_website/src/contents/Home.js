@@ -5,8 +5,7 @@ import Coding from '../contents/Coding'
 import AboutMe from '../contents/AboutMe'
 import Projects from '../contents/Projects'
 import Social from '../components/Social'
-import FontAwesome from 'react-fontawesome'
-import { HashLink as Link } from 'react-router-hash-link';
+
 
 
 
